@@ -1,0 +1,7 @@
+Load in Programmable Invisible Memory
+
+Left one:
+Register Read : Second half of Clock Cycle 
+Right one:
+Register Write : First half of Clock Cycle
+

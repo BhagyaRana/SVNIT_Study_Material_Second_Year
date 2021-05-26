@@ -1,0 +1,31 @@
+typedef struct 
+
+ListStart->next->next = (EPtr) malloc()
+
+
+ListStart->next->next->data = 85;
+ListStart->next->next->next = NULL;
+
+Parameters: {ndata, nnext}
+
+Allocate Memory for Node
+EPtr Node = (EPtr) malloc(sizeof(EStruct));
+Node->data = ndata; 
+Node->next = nnext;
+
+Let Step take x nanoseconds
+
+Load: 5*x ns
+Store: 4*x ns
+R-type : 4*x ns
+Branch : 3*x nx
+Jump : 3*x ns
+
+Single -> Multiple
+
+Multiplexor : 5 -> 6
+Adder : 2 -> 0
+ALU : 1 -> 1
+
+At Cost of 2 Adders we replaced it by 1 Multiplexor
+Cost Saving & Efficient Circuit Design!!

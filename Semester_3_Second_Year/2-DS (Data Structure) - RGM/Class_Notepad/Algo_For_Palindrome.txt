@@ -1,0 +1,23 @@
+Algorithm for Palindrome String Using Stack - [Asked by Rupa Mam to Post in Class]
+
+len(s1) = returns length of string s1
+
+1.) stack.top = -1
+2.) Read s1  
+3.) len1 = len(s1)
+
+4.) i=0;
+5.) Repeat Step 6 & 7 while i < (len1)/2 
+6.) push(s1[i], stack)
+7.) i = i + 1
+
+8.) if len is odd [len%2!=0] 
+9.)    i = i+1
+
+10.) Repeat Step 11 & 12 while not isempty(stack)
+11.)  if(stack.top != s[i]) return false;
+12.)  i = i + 1; pop(stack.top); 
+
+13.) return true		
+
+

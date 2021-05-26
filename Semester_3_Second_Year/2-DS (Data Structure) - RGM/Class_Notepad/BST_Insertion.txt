@@ -1,0 +1,33 @@
+// Insertion in BST
+
+cur = root;
+int f = 1;
+while(f)
+{
+ if(cur(info) < temp(info))
+ {
+  if(cur->rptr==NULL)
+  {
+     cur->rptr = temp;
+     f = 0;// Node Inserted
+     break;
+  }
+  else
+  {
+    cur = cur->rptr;
+  }
+ }
+ else
+ {
+  if(cur->lptr==NULL)
+  {
+     cur->lrptr = temp;
+     f = 0;// Node Inserted
+     break;
+  }
+  else
+  {
+    cur = cur->lptr;
+  }
+ }
+}

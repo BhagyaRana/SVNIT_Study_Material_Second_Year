@@ -1,0 +1,42 @@
+% Plot the frequency moulated signal
+fc = 30;
+fm = 5;
+ts = 1 / (10 * fc);
+fs = (1 / ts);
+fdev = 10; % Frequency deviation
+t = 0:ts:1;
+m = sin(2 * pi * fm * t);
+c = cos(2 * pi * fc * t);
+% y = cos(wc * t + (kf * 2 * pi * cumsum(m)).* ts);
+y = fmmod(m, fc, fs, fdev);
+figure;
+subplot(5,1,1)
+plot(t, m)
+title('Input Signal')
+xlabel('Time (s)')
+ylabel('Amplitude')
+subplot(5,1,2)
+plot(t, c)
+title('Carrier Signal')
+xlabel('Time (s)')
+ylabel('Amplitude')
+subplot(5,1,3)
+plot(t, y)
+title('FM Modulation of input signal')
+xlabel('Time (s)')
+ylabel('Amplitude');
+
+% Demodulation
+z = fmdemod(y, fc, fs, fdev);
+subplot(5, 1, 4)
+plot(t, z)
+title('Demodulated FM signal');
+
+% Plot the frequency spectra
+a = fftshift(fft(y)) * ts;
+delta = fs / length(a);
+f = -fs/2:delta:fs/2-delta;
+subplot(5,1,5)
+plot(f, abs(a))
+title('Magnitude Spectrum of FM signal');
+

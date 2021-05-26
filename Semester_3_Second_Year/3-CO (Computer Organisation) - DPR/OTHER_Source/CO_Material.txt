@@ -1,0 +1,27 @@
+CO Materials:-
+
+1.) Pipelining
+2.) IOInterface
+3.) Advanced Topics
+4.) Microarchitecture
+5.) Multi cycle
+6.) ISA
+7.) Performance
+8.) ISA Procedure
+9.) Computer organisation basics
+10.) Introduction of subject
+
+11.) Virtual Memory
+12.) Memory Organisation part 1 , part 2
+13.) Floating Point Arithmetic 
+14.) Arithmetic Division-Restoring and non restoring method of binary division
+15.) Booth's algorithm
+16.) Floating Point Repressentation
+
+Tutorials:-
+
+1.)Cache memory
+2.)Performance tutorial
+3.)Division tutorial
+4.)Booth's Algorithm
+5.)Pipeline questions

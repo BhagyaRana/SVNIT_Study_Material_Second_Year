@@ -1,0 +1,36 @@
+FM Modulation MATLAB Code:
+
+% Plot the frequency modulated signal
+% frequency of carrier signal = fc
+fc=20;
+% frequency of message signal = fm
+fm=5;
+ts=1/(10*fc);
+fs=(1/ts);
+kf=2; % Frequency deviation sensitivity
+wc=2*pi*fc;
+t=0:ts:2;
+m=sin(2*pi*fm*t);
+y=cos(wc*t+(kf*2*pi*cumsum(m)).*ts);
+figure(1)
+subplot(211)
+plot(t,m)
+title('Input signal')
+subplot(212)
+plot(t,y)
+title('FM modulation of input signal')
+% Plot the frequency response
+mf=fftshift(fft(m))*ts;
+delta=fs/length(mf);
+f=-fs/2:delta:fs/2-delta;
+figure(2)
+subplot(211)
+plot(f,abs(mf))
+title('Magnitude spectrum of input signal')
+a=fftshift(fft(y))*ts;
+delta=fs/length(a);
+f=-fs/2:delta:fs/2-delta;
+subplot(212)
+plot(f,abs(a))
+title('Magnitude spectrum of the fm')
+ 

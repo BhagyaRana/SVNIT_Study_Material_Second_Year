@@ -1,0 +1,21 @@
+%moving average filter
+clear all;
+close all;
+clc;
+fs=500000;
+fm=10000;
+t=1:200;
+x=5*cos(2*pi*(fm/fs)*t);
+z=awgn(x,5); % adding White Gaussian noise to the input with S/N=5
+plot(x,'g','linewidth',1.5);
+hold on;
+plot(z);
+hold on;
+for i=1:194;
+y(i)=(z(i)+z(i+1)+z(i+2)+z(i+3)+z(i+4)+z(i+6))/6;
+end
+plot(y,'r','linewidth',1.5);
+legend('Actual','Noisy','Filtered');
+title('moving Average Filter','fontsize',12);
+xlabel('---> time in 2us');
+ylabel('---> volts'); 

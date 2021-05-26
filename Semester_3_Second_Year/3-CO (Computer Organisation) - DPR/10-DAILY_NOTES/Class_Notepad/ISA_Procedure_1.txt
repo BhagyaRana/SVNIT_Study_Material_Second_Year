@@ -1,0 +1,25 @@
+
+// decrement sp 
+addi $sp, $sp, -12 
+
+// push temp variables
+sw $t1, 8($sp)
+sw $t0, 4($sp)
+sw $s0, 0($sp)
+
+//Perform the Task
+add $t0, $a0, $a1
+add $t1, $a2, $a3
+sub $s0. $t0, $t1
+add $vo, $s0, $zero
+
+// pop temp variables
+sw $t1, 8($sp)
+sw $t0, 4($sp)
+sw $s0, 0($sp)
+
+//increment sp
+addi $sp, $sp. 12
+
+//Jump to Return Address
+jr $ra

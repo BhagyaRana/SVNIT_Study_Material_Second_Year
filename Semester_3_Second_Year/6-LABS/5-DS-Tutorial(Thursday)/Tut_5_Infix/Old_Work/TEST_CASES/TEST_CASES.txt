@@ -1,0 +1,4 @@
+Infix || Postfix || Prefix
+A+B   || AB+     ||+AB
+(A+B)*(C+D) || AB+CD+* || *+AB+CD
+A-B/(C*D^E) || ABCDE^*/- || -A/B*C^DE

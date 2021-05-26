@@ -1,0 +1,32 @@
+// Traversal on Binary Tree
+
+Inorder_Traversal(root)
+{
+ if(root==NULL)
+    return; 
+ Inorder_Traversal(root->left);
+ Output (root->info);
+ Inorder_Traversal(root->right);
+}
+
+Preorder_Traversal(root)
+{
+ if(root==NULL)
+    return;
+ Output (root->info);
+ Preorder_Traversal(root->left);
+ Preorder_Traversal(root->right);
+}
+
+Postorder_Traversal(root)
+{
+ if(root==NULL)
+    return;
+ Postorder_Traversal(root->left);
+ Postorder_Traversal(root->right);
+ Output (root->info);
+}
+
+Pre-Order : 50 20 10 40 70 60 90 100
+Post-Order : 10 40 20 60 100 90 70 50
+In-Order : 10 20 40 50 60 70 90 100

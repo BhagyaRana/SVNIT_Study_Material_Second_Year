@@ -1,0 +1,34 @@
+Create New Node
+Take Data in New Node
+New_Node->next = NULL
+
+B->next = C
+A->next = B
+
+----x----
+
+Insert at Front
+
+create tmp
+input tmp->data
+tmp->next = head
+head = tmp;
+
+----x----
+
+Insert at Position "pos"
+
+struct list *cur = head;
+
+int cnt = 1;
+while(cnt!=pos-1)
+{
+  cur = cur->next;
+  cnt++;
+}
+
+create tmp
+input tmp->data
+tmp->next = cur->next;
+cur->next = tmp;
+

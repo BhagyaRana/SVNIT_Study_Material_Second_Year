@@ -1,0 +1,59 @@
+R = (A*B) - (C*D) - (E*F)
+
+For Stack : 
+
+push A
+push B
+MUL
+push C
+push D
+MUL
+push E
+push F
+MUL
+SUB
+SUB
+pop R
+
+
+Accumulator
+
+Load A
+Mul B
+Store in tmp1
+Load C
+Mul D
+Store in tmp2
+Load tmp1
+Sub tmp2
+Store tmp3
+Load E
+Mul F
+Store in tmp4
+Load tmp3
+Sub tmp4
+Store in tmp5
+Store tmp5 in Result
+
+Register Architecture
+
+Load R1, A
+Load R2, B
+MUL R3, R1, R2
+Store tmp1, R3
+Load R1, C
+Load R2, D
+MUL R3, R1, R2
+Store tmp2, R3
+Load R1, E
+Load R2, F
+MUL R3, R1, R2
+Store tmp3, R3
+Load R1, tmp1
+Load R2, tmp2
+Load R2, tmp3
+SUB R4, R1, R2, R3
+Store Result, R4
+
+
+

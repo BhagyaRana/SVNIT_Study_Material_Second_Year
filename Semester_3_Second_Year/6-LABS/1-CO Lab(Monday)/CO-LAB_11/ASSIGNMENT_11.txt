@@ -1,0 +1,4 @@
+Make use of your 2 bit multiplier
+to design a 4 bit multiplier,
+test it. 
+Compare to the built-in multiplier provided in Logisim.

@@ -1,0 +1,27 @@
+INFIX
+
+1.) InFix->PostFix
+https://www.includehelp.com/c/infix-to-postfix-conversion-using-stack-with-c-program.aspx
+
+2.) InFix->PreFix
+https://www.simplycs.in/2018/10/25/infix-to-prefix-conversion-using-stacks-in-c/
+OR
+https://gist.github.com/priyadarshitathagat/49240e1a678753e1ce0681a75e6b3425
+
+POSTFIX
+
+3.) PostFix->PreFix
+https://prepinsta.com/data-structures/postfix-to-prefix-conversion/
+OR
+https://gist.github.com/priyadarshitathagat/53292f10ec8302aa58b0a451da61468b
+
+4.) PostFix->InFix
+https://gist.github.com/priyadarshitathagat/198763f58ed16cfe47ad523efa6d9c32
+
+PREFIX
+
+5.) PreFix->InFix
+https://gist.github.com/priyadarshitathagat/198763f58ed16cfe47ad523efa6d9c32
+
+6.) PreFix->PostFix
+https://gist.github.com/priyadarshitathagat/91c330a3c7c89b84d95f0bff98f8cfb7

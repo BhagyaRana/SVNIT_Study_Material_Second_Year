@@ -1,0 +1,21 @@
+typedef st{ 
+int n;
+char name[20];
+};
+
+st stu1, stu2;
+[Little Bit Formatted!Easy to View!]
+
+struct date1{
+int day, month, year;
+};
+
+struct st1{
+struct date1 b_date;
+int n;
+};
+
+'.' has higher precedence than *
+
+(*st1).n
+==> st1->n

@@ -1,0 +1,5 @@
+Implement the following functions in context to a binary tree:
+a) insertion of element
+b) deletion of element
+c) updation of element
+d) calculate height of the tree

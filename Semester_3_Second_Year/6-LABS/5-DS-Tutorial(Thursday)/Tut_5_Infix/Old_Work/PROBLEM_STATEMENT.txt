@@ -1,0 +1,7 @@
+Write an algorithm for the following using stack and implement in C.
+   1. Infix to Postfix Conversion
+   2. Infix to Prefix Conversion
+   3. Postfix to Prefix Conversion
+   4. Prefix to Postfix Conversion 
+   5. Postfix to Infix Conversion
+   6. Prefix to Infix Conversion

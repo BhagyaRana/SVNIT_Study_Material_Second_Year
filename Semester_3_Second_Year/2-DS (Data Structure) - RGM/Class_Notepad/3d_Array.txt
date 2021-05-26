@@ -1,0 +1,3 @@
+Now, Questio Arises, that In 2-D Array, It is Stored either Row/Column Major;
+So, In 3-D Array, How will it be Stored, Since there are 8 Octents like up & below x-y plane?
+Address of A[i][j][k] = Base + W* [ [N]*(i - Lr) + [M]*(j-Lc) + (k-Lh)]; N = No of Rows, M = No of Columns

@@ -1,0 +1,35 @@
+HASHING Concept
+
+((t->data > p->data) && c!=NULL&&(t->data <= c->data) )
+
+// Insertion at Front
+if(t->data < head->data)
+{ //...
+}
+
+// Insertion at Middle
+if( (t->data > p->data) && (c!=NULL) && (t->data <= c->data) )
+{ //..
+}
+
+//Insertion at Rear End
+if(c==NULL)
+{ //..
+}
+
+10 -> 20 -> 30 
+
+tmp = head
+
+p1 = 
+tmp->next
+p2 = p1->next
+p3 = p2
+
+ptr2 = tmp;
+
+
+
+
+
+ptr1->next

@@ -1,0 +1,57 @@
+Doubly Linked List
+
+struct node
+{
+  int data;
+  struct node *head;
+  struct node *prev;
+};
+
+// Creation of Linked List
+// Insertion at Front
+Allocate temp
+
+Input temp->info
+temp->next = NULL;
+temp->prev = NULL;
+
+temp->next = head;
+temp->prev = NULL; 
+head = temp;
+
+//Isertion in Middle
+Allocate 
+struct node *temp = (struct node *)malloc(sizeof(struct node));
+Input temp->info
+temp->next = NULL;
+temp->prev = NULL;
+
+// Insert After at Particular Value "x"
+curr = head;
+while(cur->next!=NULL && cur->info!=x)
+{
+  cur = cur->next;
+}
+
+temp->next = cur->next;
+temp->prev = cur;
+
+cur->next = temp;
+(cur->next)->prev = temp;
+
+// Delete the Node to be Deleted
+cur -> pointing to Node to be Deleted
+
+(cur->prev)->next = cur->next;
+(cur->next)->prev = cur->prev;
+
+free(cur);
+
+
+
+
+
+
+
+
+

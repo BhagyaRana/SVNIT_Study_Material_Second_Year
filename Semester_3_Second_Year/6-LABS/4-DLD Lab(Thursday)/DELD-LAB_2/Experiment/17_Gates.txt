@@ -1,0 +1,25 @@
+17 Gates
+
+2-INPUT AND ---
+2-INPUT OR  --- 
+NOT         ---
+2-INPUT NAND ---
+2-INPUT NOR ---
+
+USING NAND
+-> INVERTOR --
+-> AND ---
+-> OR ---
+
+USING NOR
+-> INVERTOR ---
+-> AND ---
+-> OR ---
+
+2-INPUT EX-OR -- 
+2-INPUT EX-NOR --
+
+2-Input EX-OR using NAND --
+2-Input EX-OR using NOR -- 
+2-Input EX-NOR using NOR -- 
+2-Input EX-NOR using NAND -- 

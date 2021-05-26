@@ -1,0 +1,1 @@
+C program(source file) [Linker]-> Expanded Source Code [Compiler]-> Assembly Code [Assembler]-> Object Code [Linker]-> Executable Code [Loader]->Execution

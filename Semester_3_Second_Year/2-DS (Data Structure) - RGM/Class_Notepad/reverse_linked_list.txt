@@ -1,0 +1,18 @@
+reverse()
+{
+
+prev = NULL;
+curr = head;
+post = NULL;
+p4 = NULL;
+
+while(curr!=NULL)
+{
+  p4 = curr->next; 
+  post = p4->next;
+  p4->next = curr;
+  curr->next = prev;
+  prev = curr;
+}
+
+}

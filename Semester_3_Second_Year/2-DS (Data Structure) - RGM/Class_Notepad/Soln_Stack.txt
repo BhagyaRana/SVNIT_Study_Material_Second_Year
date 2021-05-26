@@ -1,0 +1,12 @@
+main() 
+
+Soln 1 : Pass by Reference
+void swap_ints(int* a,int* b)
+{
+	int tmp = *a;
+	a = b;
+	b = tmp;
+	return;
+}
+
+Soln 2 : Macro

@@ -1,0 +1,4 @@
+Implement the following operations in context to singly linked list:
+1) Creation
+2) Insertion (at begining, middle and end)
+3) Deletion (from begining, middle and end)

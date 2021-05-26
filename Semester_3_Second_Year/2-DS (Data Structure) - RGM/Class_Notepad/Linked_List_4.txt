@@ -1,0 +1,59 @@
+Insert at rear Position 
+
+struct list *cur = head;
+
+while(cur->next!=NULL)
+{
+  cur = cur->next;
+}
+
+create tmp
+input tmp->data
+tmp->next = NULL;
+cur->next = tmp;
+
+----x----
+
+while(findP!=NULL)
+{
+  if(findP->data == findI)
+	break;
+  findP = findP->next;
+}
+
+if(findP!=NULL)
+{
+ printf("Found!");
+}
+else
+{
+  printf("Not Found!");
+}
+
+1 -> 2 -> 3 -> 2 -> 2 -> NULL
+
+Output:
+
+The value is found
+The value is found
+The value is found
+
+----x----
+DELETION
+
+At Front:
+// Call by Refernce
+start = start->next;
+
+At postion 'pos' ie d
+
+c->next = d->next;
+
+ASSIGNMENT:
+
+Create Node
+Make a Linked List
+Display the Linked List
+Insertion From Linked List
+Deletion of the Linked List
+

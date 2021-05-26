@@ -1,0 +1,104 @@
+Expt. No: 1 [1/273]
+
+Introduction to Multisim
+
+AIM: To study the Multisim software interface and the tools thereby get acquainted with implementing and
+simulating circuits using Multisim Live Simulator
+
+Expt. No: 2 [20/273]
+
+Study of Basic and Universal Gates
+
+AIM: To verify the truth table of basic gates. Also implement all the basic gates using Universal (NAND & NOR) gates
+
+[1]+3
+Expt. No: 1
+Introduction to Multisim
+Date: 13-08-2020
+AIM: To study the Multisim software interface and the tools thereby get acquainted with implementing and
+simulating circuits using Multisim Live Simulator
+
+[20]
+Expt. No: 2
+Study of Basic and Universal Gates
+Date: 20/08/2020
+AIM: To verify the truth table of basic gates. Also implement all the basic gates using Universal (NAND & NOR) gates.
+
+[53]
+Expt. No: 3
+Half Adder and Half Subtractor
+Date: 27/08/2020
+AIM: To design and implement Half Adder and Half Subtractor Circuits.
+
+
+[66]
+Expt. No: 4
+Full Adder and Full Subtractor
+Date: 03-09-2020
+AIM: To design and implement Full Adder and Full Subtractor Circuits
+
+[80]
+Expt. No: 5
+V-I Characteristics of PN – Junction Diode
+Date: 10/09/2020
+AIM: To obtain and plot both forward and reverse characteristics of PN – Junction Diode.
+
+[88]
+Expt. No: 6
+Diode Clipper Circuits (Series – Configuration)
+Date: 17/09/2020
+AIM: To study, design and plot the various series diode clipper circuits.
+
+[112]
+Expt. No: 7
+Diode Clipper Circuits (Shunt – Configuration)
+Date: 24/09/2020
+AIM: To study, design and plot the various shunt diode clipper circuits.
+
+[136]
+Expt. No: 8
+Diode Clamper Circuits
+Date: 22/10/2020
+AIM: To study, design and plot the various Clamper Circuits
+
+[149]
+Expt. No: 9
+Full Wave Rectifier
+Date: 22/10/2020
+AIM: To study, design and implement Full Wave Rectifier Circuit.
+
+[155]
+Expt. No: 10
+Common Emitter Characteristics & Common Emmiter Amplifier
+Date: 29-10-2020
+AIM: To study, the Input-Output characteristics of a BJT in Common Emitter Configuration. Also implement
+Common Emitter Amplifier.
+
+[175]
+Expt. No: 11
+Registers and Counters
+Date: 7/11/2020
+AIM: To study, design and implement 3-Bit up Counter, Mod-7 Counter, 4-Bit Shift Right Register, 4 – Bit Shift Left Register
+
+[217]
+Expt. No: 12
+Multiplexers and Code Converters
+Date: 11-11-2020
+AIM: To study, design and implement:
+1. Binary to Gray and Gray to Binary Code Converter (2-Bit, 3-Bit and 4-Bit)
+2. Multiplexer using basic Gates (2x1 and 4x1)
+3. Realise all the basic gates using 2x1 Multiplexer
+4. Function Implementation using Multiplexers
+
+[252]
+Expt. No: 13
+High Pass and Low Pass Filters
+Date: 26/11/2020
+AIM: To study, design and implement:
+1. Passive RC – High Pass Filter
+2. Passive RC – Low Pass Filter
+3. Observe the Working of Low Pass Filter as an Integrator
+4. Observe the working of High Pass Filter as a Differentiator
+
+
+

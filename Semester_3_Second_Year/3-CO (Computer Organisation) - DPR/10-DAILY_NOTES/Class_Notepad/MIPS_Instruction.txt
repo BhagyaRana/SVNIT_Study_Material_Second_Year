@@ -1,0 +1,21 @@
+Beq rs, rt, Here
+Sub $S0, $S1, S2
+J Exit
+Here: Add $S0, $S1, S2
+Exit:
+
+LW $to (i*4)($S3)
+
+
+while:
+// Address
+add $t1,$s3,$s3
+add $t1,$t1,$t1
+add $t1,$t1,$s4[Base Addr]
+lw $t0, 0($t1)
+// Equality Check
+Beq $t0, $s5, body
+J Exit
+body: add $s3,$s3,$s4
+J while
+Exit : ...
