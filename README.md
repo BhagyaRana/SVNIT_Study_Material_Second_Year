@@ -2,7 +2,7 @@
 
 This is Repository of the **Most Important** and **Valuable** _Lecture Notes_ and **Resources** that Would be Helpful to Any Undergraduate in Engineering, Particularly 2nd Year.
 
-## 1️⃣ Third Semester [NIT, Surat]
+## 3️⃣ Third Semester [NIT, Surat]
 
 + 1 - Discrete Mathematics
 + 2 - Data Structure
@@ -13,7 +13,7 @@ This is Repository of the **Most Important** and **Valuable** _Lecture Notes_ an
 + 7 - SEMESTER_3_SYLLABUS.pdf
 + 8 - SEM_3_Subject_Weightage.PNG
 
-## 2️⃣ Fourth Semester [NIT, Surat]
+## 4️⃣ Fourth Semester [NIT, Surat]
 
 + 1 - Linear Algebra and Statistical Analysis
 + 2 - Microprocessor and Interfacing Techniques
