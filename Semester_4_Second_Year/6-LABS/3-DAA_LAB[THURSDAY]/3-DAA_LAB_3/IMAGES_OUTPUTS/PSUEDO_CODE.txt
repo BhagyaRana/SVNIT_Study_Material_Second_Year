@@ -1,0 +1,84 @@
+• Insertion-sort(A)
+1. for j=1 to (length(A)-1)
+2. do key = A[j]
+3. #Insert A[j] into the sorted sequnce A[0...j-1]
+4. i=j-1
+5. while i>0 and A[i]>key
+6. do A[i+1]=A[i]
+7. i=i-1
+8. A[i+1]=key //as A[i]<=key, so we place
+//key on the right side of A[i]
+
+• Merge_Sort2(arr,low,high)
+
+1.
+2.
+3.
+4.
+5.
+6.
+
+• Merge_Sort2(arr,low,high)
+
+1. if low < high
+2.    int mid = low + (high-low)/2 
+// Call this Function to Recursively Divide into Smaller Sub-array [l,m]
+3.    Merge_Sort2(arr, low, mid);
+// Call this Function to Recursively Divide into Smaller Sub-array [m+1,h]
+4.    Merge_Sort2(arr, mid + 1, high);
+// Merge the Both Sorted Array
+5.    Merge2(arr, low, mid, high);
+6. return
+
+// To Merge Two Sorted Array
+• Merge2(arr, low, mid, high)
+// Create a Temp Array of size high-low+1
+1.  tmp(high - low + 1, 0);
+// Crawlers for Temp
+2.  i = low, j = mid + 1, k = 0;
+
+3.  while i <= mid AND j <= high
+4.    if (arr[i] <= arr[j])
+5.       tmp[k] = arr[i];
+6.       k++;
+7.       i++;
+8.    else
+9.       tmp[k] = arr[j];
+10.      k++;
+11.      j++;
+       
+// Remaining Elements in Second Interval
+12. while i <= mid    
+13.      tmp[k] = arr[i];
+14.      i++;
+15.      k++;
+    
+// Remaining Elements in Second Interval
+16. while j <= high
+17.      tmp[k] = arr[j];
+18.      j++;
+19.      k++;
+    
+// Copy Temp Array to Original Array
+20. for i = low to high
+21.    arr[i] = tmp[i - low];
+
+• Merge_Sort3(vll &arr, ll low, ll high)
+
+// BASE CASE : 1 Element
+1.    if (high - low < 2)
+2.        return;
+
+3.    mid1 = low + ((high - low) / 3);
+4.    mid2 = low + 2 * ((high - low) / 3) + 1;
+
+// Call this Function to Recursively Divide into Smaller Sub-array [l,m1)
+5.    Merge_Sort3(arr, low, mid1);
+// Call this Function to Recursively Divide into Smaller Sub-array [m1,m2)
+6.    Merge_Sort3(arr, mid1, mid2);
+// Call this Function to Recursively Divide into Smaller Sub-array [m1,high)
+7.    Merge_Sort3(arr, mid2, high);
+// Merge the Both Sorted Array
+8.    Merge3(arr, low, mid1, mid2, high);
+9.    return;
+

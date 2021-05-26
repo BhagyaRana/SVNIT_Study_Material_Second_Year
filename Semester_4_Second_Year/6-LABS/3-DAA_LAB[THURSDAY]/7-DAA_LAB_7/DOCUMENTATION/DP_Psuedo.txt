@@ -1,0 +1,29 @@
+// DP Method of Solving the Problem
+
+nums: Array of Numbers
+n: Size of Array 
+
+DP_Jump(nums, n)
+  
+1. 	jumps(n, 0) 
+2.	i = 0
+3.	j = 0
+
+    // Edge Cases
+4.	if (n == 0 || nums[0] == 0)
+5.		return -1
+
+    // Minimum Jumps to Reach jumps[0] = 0 [You are Already Standing There!]
+6.	jumps[0] = 0
+
+    // Find the minimum number of jumps to reach nums[i] from nums[0],
+    // and assign this value to jumps[i]
+7.	for i = 1 to n-1
+8.		jumps[i] = INT_MAX
+9.		for j = 0 to i-1
+10.		if (i <= j + nums[j] && jumps[j] != INT_MAX)
+11.				jumps[i] = min(jumps[i], jumps[j] + 1)
+				break
+
+// If Final Answer is INT_MAX -> No Way to Reach End Otherwise Answer Exist
+12. return (jumps[n - 1] == INT_MAX) ? -1 : jumps[n - 1]

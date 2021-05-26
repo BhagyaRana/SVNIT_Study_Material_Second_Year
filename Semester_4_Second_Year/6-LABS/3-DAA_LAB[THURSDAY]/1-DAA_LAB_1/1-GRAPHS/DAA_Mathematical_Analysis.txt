@@ -1,0 +1,82 @@
+N = Number of Elements in File
+
+File1 N = 1024 = 2^10
+File2 N = 4096 = 2^12 
+File3 N = 16384 = 2^14
+File4 N = 65536 = 2^16
+File5 N = 262144 = 2^18 
+File6 N = 1048576 = 2^20
+File7 N = 2097152 = 2^21
+File8 N = 4194304 = 2^22
+File9 N = 8388608 = 2^23 
+File10 N = 16777216 = 2^24 
+
+FILE 1
+1 sec = 10^8 Operations
+? sec = 2^20 Operations
+
+Approx : 0.0104 seconds
+= 0.01 sec
+
+FILE 2
+1 sec = 10^8 Operations
+? sec = 2^24 Operations
+
+Approx : 0.167 seconds
+= 0.16 sec
+
+FILE 3
+1 sec = 10^8 Operations
+? sec = 2^28 Operations
+
+Approx : 2.684 seconds
+= 2.6 sec
+
+FILE 4
+1 sec = 10^8 Operations
+? sec = 2^32 Operations
+
+Approx : 43 seconds
+= 43 sec
+
+FILE 5
+1 sec = 10^8 Operations
+? sec = 2^36 Operations
+
+Approx : 687 seconds
+= 11 mins
+
+FILE 6
+1 sec = 10^8 Operations
+? sec = 2^40 Operations
+
+Approx : 10995 seconds
+= 3 hrs 3 mins
+
+FILE 7
+1 sec = 10^8 Operations
+? sec = 2^42 Operations
+
+Approx : 43980 seconds
+= 12 hrs 13 mins
+
+FILE 8
+1 sec = 10^8 Operations
+? sec = 2^44 Operations
+
+Approx : 175922 seconds
+= 2 days 52 hrs 2 mins
+
+FILE 9
+1 sec = 10^8 Operations
+? sec = 2^46 Operations
+
+Approx : 703687 seconds
+= 8 days 3 hrs 28 mins
+
+FILE 10
+1 sec = 10^8 Operations
+? sec = 2^48 Operations
+
+Approx : 2814750 seconds
+= 32 days 13 hrs 52 mins

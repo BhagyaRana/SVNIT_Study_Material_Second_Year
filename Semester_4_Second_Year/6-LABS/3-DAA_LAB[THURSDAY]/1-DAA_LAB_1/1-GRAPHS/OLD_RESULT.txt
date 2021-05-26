@@ -1,0 +1,41 @@
+BEST CASE : 
+Time taken by File1.txt is : 0.000000 sec
+WORST CASE : 
+Time taken by File1.txt is : 0.0009980000 sec
+BEST CASE : 
+Time taken by File2.txt is : 0.000998 sec
+WORST CASE : 
+Time taken by File2.txt is : 0.0009800000 sec
+BEST CASE : 
+Time taken by File3.txt is : 0.000000 sec
+WORST CASE : 
+Time taken by File3.txt is : 0.0339520000 sec
+BEST CASE : 
+Time taken by File4.txt is : 0.001447 sec
+WORST CASE : 
+Time taken by File4.txt is : 0.1083150000 sec
+BEST CASE : 
+Time taken by File5.txt is : 0.001232 sec
+WORST CASE : 
+Time taken by File5.txt is : 0.3274590000 sec
+BEST CASE : 
+Time taken by File6.txt is : 0.000000 sec
+WORST CASE : 
+Time taken by File6.txt is : 1.0540450000 sec
+BEST CASE : 
+Time taken by File7.txt is : 0.000000 sec
+WORST CASE : 
+Time taken by File7.txt is : 3.2755180000 sec
+BEST CASE : 
+Time taken by File8.txt is : 0.000000 sec
+WORST CASE : 
+Time taken by File8.txt is : 4.2123420000 sec
+BEST CASE : 
+Time taken by File9.txt is : 0.000000 sec
+WORST CASE : 
+Time taken by File9.txt is : 11.1973510000 sec
+BEST CASE : 
+Time taken by File10.txt is : 0.000000 sec
+WORST CASE : 
+Time taken by File10.txt is : 14.5200360000 sec
+--------------------------------------------------

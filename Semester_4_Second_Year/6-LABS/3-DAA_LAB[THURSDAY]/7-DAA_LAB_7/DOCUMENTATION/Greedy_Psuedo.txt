@@ -1,0 +1,24 @@
+// Greedy Method Of Solving the Problem
+
+nums: Array of Numbers
+n: Size of Array 
+
+Greedy_Jump(nums, n)
+
+// 2 Pointers
+1.	previous = 0
+2.	current = 0
+// No Of Jumps Taken
+3.	jumps = 0
+   
+4.	for i = 0 to n - 1
+5. 		if (i > previous)        
+6. 			jumps = jumps + 1
+7.			previous = current
+8.			if (i > current)
+9.				return -1
+		// Update the Current Position
+10. 	current = max(current, i + nums[i])
+
+// Final Answer Containing Minimum Time
+return jumps;

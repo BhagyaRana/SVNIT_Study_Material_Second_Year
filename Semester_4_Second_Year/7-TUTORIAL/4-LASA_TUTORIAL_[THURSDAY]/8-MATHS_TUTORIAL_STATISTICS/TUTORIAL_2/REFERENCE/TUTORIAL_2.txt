@@ -1,0 +1,22 @@
+CHAPTER 2 : DISCRETE DISTRIBUTIONS
+
+Q1) Pg 86 Q26
+https://www.chegg.com/homework-help/let-x-geometric-probability-success-p-prove-x-positive-integ-chapter-3-problem-26e-solution-9780071198592-exc
+
+Q2) Pg 65 Eg 3.4.3
+
+Q3) Pg 88 Q35
+https://www.chegg.com/homework-help/let-density-x-given-find-value-c-makes-density-b-find-moment-chapter-3-problem-35e-solution-9780071198592-exc
+
+Q4) Pg 91 Q54
+https://www.chegg.com/homework-help/suppose-x-hypergeometric-n-20-r-17-n-5-possible-values-x-e-x-chapter-3-problem-54e-solution-9780071198592-exc
+
+Q5) Pg 109 Theoram 4.3.2
+
+Q6) Pg 140 Q10
+https://www.chegg.com/homework-help/uniform-distribution-find-general-expression-cumulative-dist-chapter-4-problem-10e-solution-9780071198592-exc
+
+Q7) Pg 181 Q3
+https://www.chegg.com/homework-help/joint-density-x-y-given-verify-fxy-x-y-satisfies-conditions-chapter-5-problem-3e-solution-9780071198592-exc
+
+Book Link: https://books.google.co.in/books?id=ySFwe0aVTY4C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false

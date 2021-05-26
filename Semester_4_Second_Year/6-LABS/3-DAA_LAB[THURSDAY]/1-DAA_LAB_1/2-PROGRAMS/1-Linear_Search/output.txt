@@ -1,0 +1,50 @@
+--------------------------------------------------------
+File1.txt
+AVERAGE CASE : 0.000000 seconds
+BEST CASE    : 0.000000000 seconds
+WORST CASE   : 0.000000000 seconds
+--------------------------------------------------------
+File2.txt
+AVERAGE CASE : 0.000000000 seconds
+BEST CASE    : 0.000000000 seconds
+WORST CASE   : 0.000000000 seconds
+--------------------------------------------------------
+File3.txt
+AVERAGE CASE : 0.000000000 seconds
+BEST CASE    : 0.000000000 seconds
+WORST CASE   : 0.000000000 seconds
+--------------------------------------------------------
+File4.txt
+AVERAGE CASE : 0.000000000 seconds
+BEST CASE    : 0.000000000 seconds
+WORST CASE   : 0.000000000 seconds
+--------------------------------------------------------
+File5.txt
+AVERAGE CASE : 0.000000000 seconds
+BEST CASE    : 0.000000000 seconds
+WORST CASE   : 0.004037000 seconds
+--------------------------------------------------------
+File6.txt
+AVERAGE CASE : 0.008025500 seconds
+BEST CASE    : 0.000000000 seconds
+WORST CASE   : 0.008000000 seconds
+--------------------------------------------------------
+File7.txt
+AVERAGE CASE : 0.008000000 seconds
+BEST CASE    : 0.000000000 seconds
+WORST CASE   : 0.020000000 seconds
+--------------------------------------------------------
+File8.txt
+AVERAGE CASE : 0.015994000 seconds
+BEST CASE    : 0.012000500 seconds
+WORST CASE   : 0.036005000 seconds
+--------------------------------------------------------
+File9.txt
+AVERAGE CASE : 0.032685500 seconds
+BEST CASE    : 0.023998500 seconds
+WORST CASE   : 0.071998000 seconds
+--------------------------------------------------------
+File10.txt
+AVERAGE CASE : 0.056025000 seconds
+BEST CASE    : 0.061231000 seconds
+WORST CASE   : 0.131999000 seconds

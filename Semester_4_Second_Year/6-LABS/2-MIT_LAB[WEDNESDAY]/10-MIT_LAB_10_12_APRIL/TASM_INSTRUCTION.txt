@@ -1,0 +1,12 @@
+8086 TASM Instruction Order
+
+1.) edit hello.asm
+2.) tasm hello.asm
+3.) tlink hello.obj
+4.) debug hello.exe
+5.) DEBUG OPTIONS
+-u => unassemble
+-g => execution
+-q => quit
+-d 076B:0000 => Segment Memory
+6.) exit - To Exit 

@@ -1,0 +1,26 @@
+SELECTION SORT
+--------------------------------------------------------
+File1.txt
+AVERAGE CASE : 0.002992 seconds
+BEST CASE    : 0.001993000 seconds
+WORST CASE   : 0.003026000 seconds
+--------------------------------------------------------
+File2.txt
+AVERAGE CASE : 0.050864000 seconds
+BEST CASE    : 0.048870000 seconds
+WORST CASE   : 0.045876000 seconds
+--------------------------------------------------------
+File3.txt
+AVERAGE CASE : 0.669212000 seconds
+BEST CASE    : 0.667217000 seconds
+WORST CASE   : 0.743014000 seconds
+--------------------------------------------------------
+File4.txt
+AVERAGE CASE : 11.059123000 seconds
+BEST CASE    : 10.864665000 seconds
+WORST CASE   : 13.791273000 seconds
+--------------------------------------------------------
+File5.txt
+AVERAGE CASE : 174.081319000 seconds
+BEST CASE    : 172.253910000 seconds
+WORST CASE   : 248.630703000 seconds

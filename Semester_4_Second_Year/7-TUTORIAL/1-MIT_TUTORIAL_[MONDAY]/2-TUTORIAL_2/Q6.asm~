@@ -1,0 +1,8 @@
+
+;Q6
+
+XRA A
+MVI B, 4AH
+SUI 4FH
+ANA B
+HLT

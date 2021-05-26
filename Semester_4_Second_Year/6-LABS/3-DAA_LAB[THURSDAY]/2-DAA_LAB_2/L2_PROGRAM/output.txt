@@ -1,0 +1,25 @@
+--------------------------------------------------------
+File1.txt
+AVERAGE CASE : 0.000000 seconds
+BEST CASE    : 0.000000000 seconds
+WORST CASE   : 0.010075500 seconds
+--------------------------------------------------------
+File2.txt
+AVERAGE CASE : 0.000000000 seconds
+BEST CASE    : 0.000000000 seconds
+WORST CASE   : 0.086874000 seconds
+--------------------------------------------------------
+File3.txt
+AVERAGE CASE : 0.000000000 seconds
+BEST CASE    : 0.000000000 seconds
+WORST CASE   : 1.208551500 seconds
+--------------------------------------------------------
+File4.txt
+AVERAGE CASE : 0.000000000 seconds
+BEST CASE    : 0.000000000 seconds
+WORST CASE   : 18.156971000 seconds
+--------------------------------------------------------
+File5.txt
+AVERAGE CASE : 0.000000000 seconds
+BEST CASE    : 0.000000000 seconds
+WORST CASE   : 289.277434500 seconds

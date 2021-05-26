@@ -1,0 +1,113 @@
+U19CS013 VAGHELA JAYKUMAR HARJIBHAI SVNIT2:13 PM
+mam in group one two evolution is not done yet so can you provide the evolution link
+U19CS052 AUM GOHEL2:15 PM
+in our group also few students left
+Sunny Bodiwala SVNIT2:15 PM
+Evaluators please check for the pending evaluations and provide the link for the same
+You2:16 PM
+Can the Problem Statement [in Lab Assignment] be explained with some Examples/Test Cases? Like What is Input and How we are to Show the Output? 
+U19CS001 PARVA SHAILESHKUMAR PATEL SVNIT2:17 PM
+yes sir/ma'am, it would be helpful
+You2:17 PM
++1
+U19CS003 AMAN KUMAR2:17 PM
++1
+U19CS046 SHUBHAM AGARWAL SVNIT2:17 PM
++1
+U19CS009 BRIJESH ROHIT2:17 PM
++1
+U19CS011 JIKADRA RAJ RAMESHBHAI SVNIT2:17 PM
++1
+U19CS079 RIYA SHARMA SVNIT2:17 PM
++1
+Sunny Bodiwala SVNIT2:17 PM
+ok wait
+U19CS015 GANDHI DHRUV KIRANKUMAR SVNIT2:18 PM
++1
+U19CS072 VIJAY LAXMI SVNIT2:18 PM
+manish sir my evalution for assignmeent 1,2,3 is still left. so is it possible is you can take my evalution now?
+U19CS062 AYAN YASINBHAI MANSURI SVNIT2:19 PM
+Sir mine Too
+U19CS105 SHASHWATHA VIJAY KARKERA SVNIT2:22 PM
+Sir, my evaluation for assignments 4-7 is left
+MANISH KUMAR SVNIT2:23 PM
+I will be taking remaining evaluation next week
+U19CS026 SUMEET KAMBLE2:23 PM
+Murtaza Sir , Even my evaluation for 1 2 3 is remaining ! (4-7 is complete)
+U19CS024 ABHISHEK KUMAR GUPTA SVNIT2:23 PM
+sir mine evaluation for 4-7 is remaining too
+U19CS004 VATSAL PATEL SVNIT2:24 PM
+Sir my evaluation 4-7 remaining
+U19CS109 ESHA SRIVASTAV SVNIT2:24 PM
+Even my evaluation for 4-7 is left
+U19CS006 PRASHANT KUMAR BARIYA SVNIT2:25 PM
+sir my evaluation for 4-7 is left
+U19CS108 MAKVANA AJAY SVNIT2:25 PM
+my also 4-7 is left
+U19CS055 PAVULURI DIVYANTH SVNIT2:26 PM
+mine also 4-7 is left
+Ashish Chaudhari SVNIT2:27 PM
+101 join
+U19CS030 PATEL YASH MAHESHBHAI SVNIT2:28 PM
+sir my evaluation for 4-7 is left
+U19CS123 KRISHNA PATEL2:32 PM
+Sir can we have test cases for the following questions??
+Sunny Bodiwala SVNIT2:32 PM
+1. Convert an 8 binary data bytes into BCD and result of it should be stored at some address let say 8000. Take the desired number from D register. 
+bit*
+U19CS123 KRISHNA PATEL2:35 PM
+eg:
+8000: 0
+8001: 1
+8002: 0
+8003: 1
+8004: 0
+U19CS123 KRISHNA PATEL2:36 PM
+8005: 0
+8006: 0
+8007: 1
+ ans= 81??
+is this correct?
+Sunny Bodiwala SVNIT2:37 PM
+8000:08
+8001:01
+like this
+U19CS123 KRISHNA PATEL2:38 PM
+clear
+Sunny Bodiwala SVNIT2:38 PM
+for internal conversion its corrects but finally output should be in tbis form
+Ashish Chaudhari SVNIT2:39 PM
+100 join link
+102 join link
+U19CS102 PRINCE SHAH2:40 PM
+yes sir
+Sunny Bodiwala SVNIT2:48 PM
+
+2. Output
+
+8040 Data
+8041 Data
+8042 Data
+8043 Data
+8044 Data
+8045 Data
+8046 Data
+8047 Data
+8048 Data
+8049 Data
+
+Store the sum in the Output Buffer starting from 8050 in an unpacked form
+Ashish Chaudhari SVNIT2:56 PM
+103 join link
+Sunny Bodiwala SVNIT2:58 PM
+Output
+50 6C 61 6E 74 - store this in some memory location.
+Add these numbers using binary representation
+Store it in the memory locations as needed
+Sunny Bodiwala SVNIT2:59 PM
+U19CS088
+U19CS090 present or absent?
+P20CO003 RADHA TIKESHKUMAR PATEL SVNIT3:04 PM
+roll no. 30 join the link https://meet.google.com/gqp-ctzx-mis?authuser=1&hl=en
+Sunny Bodiwala SVNIT3:42 PM
+You may leave now

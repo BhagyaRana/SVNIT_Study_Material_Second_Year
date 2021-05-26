@@ -1,0 +1,36 @@
+--------------------------------------------------------
+File1.txt
+TIME TAKEN (DP): 0.001993 seconds
+TIME TAKEN (GREEDY): 0.000000000 seconds
+--------------------------------------------------------
+File2.txt
+TIME TAKEN (DP): 0.016286000 seconds
+TIME TAKEN (GREEDY): 0.000000000 seconds
+--------------------------------------------------------
+File3.txt
+TIME TAKEN (DP): 0.050393000 seconds
+TIME TAKEN (GREEDY): 0.000000000 seconds
+--------------------------------------------------------
+File4.txt
+TIME TAKEN (DP): 0.116886000 seconds
+TIME TAKEN (GREEDY): 0.000000000 seconds
+--------------------------------------------------------
+File5.txt
+TIME TAKEN (DP): 0.431747000 seconds
+TIME TAKEN (GREEDY): 0.000000000 seconds
+--------------------------------------------------------
+File6.txt
+TIME TAKEN (DP): 1.460063000 seconds
+TIME TAKEN (GREEDY): 0.008070000 seconds
+--------------------------------------------------------
+File7.txt
+TIME TAKEN (DP): 5.658418000 seconds
+TIME TAKEN (GREEDY): 0.000000000 seconds
+--------------------------------------------------------
+File8.txt
+TIME TAKEN (DP): 23.518014000 seconds
+TIME TAKEN (GREEDY): 0.001000000 seconds
+--------------------------------------------------------
+File9.txt
+TIME TAKEN (DP): 90.331623000 seconds
+TIME TAKEN (GREEDY): 0.000000000 seconds

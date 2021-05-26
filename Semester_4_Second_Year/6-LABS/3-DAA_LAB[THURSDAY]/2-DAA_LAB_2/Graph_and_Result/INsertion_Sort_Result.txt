@@ -1,0 +1,53 @@
+File1.txt
+AVERAGE CASE : 0 nano-seconds
+BEST CASE    : 0 nano-seconds
+WORST CASE   : 11212000 nano-seconds
+File2.txt
+AVERAGE CASE : 16428600 nano-seconds
+BEST CASE    : 0 nano-seconds
+WORST CASE   : 91439200 nano-seconds
+File3.txt
+AVERAGE CASE : 125145600 nano-seconds
+BEST CASE    : 0 nano-seconds
+WORST CASE   : 1258470400 nano-seconds
+File4.txt
+AVERAGE CASE : 2000471200 nano-seconds
+BEST CASE    : 1316400 nano-seconds
+WORST CASE   : 20504048200 nano-seconds
+
+
+AVERAGE CASE :
+Time taken by File1.txt is : 0.001994 sec
+BEST CASE :
+Time taken by File1.txt is : 0.0000000000 sec
+WORST CASE :
+Time taken by File1.txt is : 0.0039900000 sec
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AVERAGE CASE :
+Time taken by File2.txt is : 0.031913 sec
+BEST CASE :
+Time taken by File2.txt is : 0.0000000000 sec
+WORST CASE :
+Time taken by File2.txt is : 0.0648580000 sec
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AVERAGE CASE :
+Time taken by File3.txt is : 0.523645 sec
+BEST CASE :
+Time taken by File3.txt is : 0.0000000000 sec
+WORST CASE :
+Time taken by File3.txt is : 1.0568830000 sec
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AVERAGE CASE :
+Time taken by File4.txt is : 8.372796 sec
+BEST CASE :
+Time taken by File4.txt is : 0.0000000000 sec
+WORST CASE :
+Time taken by File4.txt is : 17.0502220000 sec
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AVERAGE CASE :
+Time taken by File5.txt is : 152.338422 sec
+BEST CASE :
+Time taken by File5.txt is : 0.0019950000 sec
+WORST CASE :
+Time taken by File5.txt is : 310.1517560000 sec
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

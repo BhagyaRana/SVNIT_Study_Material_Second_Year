@@ -1,0 +1,12 @@
+Q1.) https://www.complexsql.com/sql-nested-queries/
+
+Q2.) https://learnsql.com/blog/sql-nested-select/
+[Both Parts]
+
+Q3 & Q4) 
+
+https://www.wideskills.com/sql/sql-nested-or-sub-queries
+
+Q5.)
+https://www.w3resource.com/sql-exercises/subqueries/sql-subqueries-inventory-exercise-27.php
+

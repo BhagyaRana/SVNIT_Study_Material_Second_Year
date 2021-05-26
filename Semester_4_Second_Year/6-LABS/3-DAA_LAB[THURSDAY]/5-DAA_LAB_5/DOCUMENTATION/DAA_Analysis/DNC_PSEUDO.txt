@@ -1,0 +1,46 @@
+// DIVIDE AND CONQUER APPROACH
+
+heights : Array Of Height of Buil
+left 	: Left Boundery
+right 	: right Boundary
+
+maxAreaDnC ( heights, left, right) 
+
+// BASE CASE [1 Building]
+1.	if left == right
+		return heights[left]
+// BASE CASE [2 Building]
+2.	if left + 1 == right
+3.		minH = min(heights[left], heights[right])
+4.		return max( minH * 2, max(heights[left], heights[right]))
+    
+5.	mid = (left + right) / 2
+// left max area
+6.	leftArea = maxAreaDnC(heights, left, mid-1)
+// right max area
+7.	rightArea = maxAreaDnC(heights, mid+1, right)
+        
+// mid max area, including current bar
+8.	i = mid, j = mid
+9.	width, midArea = 0
+10.	height = heights[mid]
+11.		while i >= left && j <= right
+
+12.			width = j - i + 1
+13.			height = min(height, min(heights[i], heights[j]))
+14.			midArea = max(midArea, width * height)
+// Go to Right Side
+15.          if i == left
+16.				j += 1
+// Go to Left Side
+17.			else if j == right
+18.				i -= 1
+// If Left Side Building is Taller  
+19.			else if heights[i-1] >= heights[j+1]
+20.				i -= 1
+// If Right Side Building is Taller
+21.			else 
+22.				j += 1
+
+// Return the Maximum of all three Parts of Area 
+23.	return max( midArea, max(leftArea, rightArea) )

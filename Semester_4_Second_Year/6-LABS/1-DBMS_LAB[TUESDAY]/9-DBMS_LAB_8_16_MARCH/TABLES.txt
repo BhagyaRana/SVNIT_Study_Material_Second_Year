@@ -1,0 +1,321 @@
+
+
+CREATE TABLE seller (
+  seller_id VARCHAR(2) PRIMARY KEY, 
+  seller_name VARCHAR(20), 
+  rating FLOAT(2, 1)
+);
+
+INSERT INTO seller 
+VALUES 
+  ('1S', 'Abhay', 3.3);
+INSERT INTO seller 
+VALUES 
+  ('2S', 'Priya', 1);
+INSERT INTO seller 
+VALUES 
+  ('3S', 'Kishan', 4.8);
+INSERT INTO seller 
+VALUES 
+  ('4S', 'Vicky', 4.3);
+INSERT INTO seller 
+VALUES 
+  ('5S', 'Sneha', 3.6);
+INSERT INTO seller 
+VALUES 
+  ('6S', 'Pushpa', 2.8);
+
+
+
+
+CREATE TABLE category (
+  category_id VARCHAR(2) PRIMARY KEY, 
+  category VARCHAR(20)
+);
+INSERT INTO category 
+VALUES 
+  ('1C', 'Books');
+INSERT INTO category 
+VALUES 
+  ('2C', 'Footwear');
+INSERT INTO category 
+VALUES 
+  ('3C', 'Home Decor');
+INSERT INTO category 
+VALUES 
+  ('4C', 'Accessories');
+
+CREATE TABLE product (
+  product_id VARCHAR(3) PRIMARY KEY, 
+  product VARCHAR(50), 
+  amount INTEGER, 
+  quantity_rem INTEGER, 
+  category_id VARCHAR(2) NOT NULL, 
+  seller_id VARCHAR(2) NOT NULL, 
+  rating FLOAT(2, 1) DEFAULT 0.0, 
+  FOREIGN KEY(seller_id) REFERENCES seller(seller_id), 
+  FOREIGN KEY(category_id) REFERENCES category(category_id)
+);
+INSERT INTO product (
+  product_id, product, amount, quantity_rem, 
+  category_id, seller_id
+) 
+VALUES 
+  (
+    '1P', 'The Programming language of ORACLE', 
+    350, 4, '1C', '1S'
+  );
+INSERT INTO product (
+  product_id, product, amount, quantity_rem, 
+  category_id, seller_id
+) 
+VALUES 
+  (
+    '2P', 'Nike White shoes', 7000, 2, 
+    '2C', '3S'
+  );
+INSERT INTO product (
+  product_id, product, amount, quantity_rem, 
+  category_id, seller_id
+) 
+VALUES 
+  (
+    '3P', 'White Lamp', 800, 3, '3C', '5S'
+  );
+INSERT INTO product (
+  product_id, product, amount, quantity_rem, 
+  category_id, seller_id
+) 
+VALUES 
+  (
+    '4P', 'Antique Silver Earrings', 
+    400, 7, '4C', '2S'
+  );
+INSERT INTO product (
+  product_id, product, amount, quantity_rem, 
+  category_id, seller_id
+) 
+VALUES 
+  (
+    '5P', 'Antique Silver Bracelet', 
+    700, 5, '4C', '6S'
+  );
+INSERT INTO product (
+  product_id, product, amount, quantity_rem, 
+  category_id, seller_id
+) 
+VALUES 
+  (
+    '6P', 'Catwalk leather flats', 1599, 
+    3, '2C', '4S'
+  );
+INSERT INTO product (
+  product_id, product, amount, quantity_rem, 
+  category_id, seller_id
+) 
+VALUES 
+  (
+    '7P', 'Introduction to Java', 650, 
+    8, '1C', '5S'
+  );
+INSERT INTO product (
+  product_id, product, amount, quantity_rem, 
+  category_id, seller_id
+) 
+VALUES 
+  (
+    '8P', 'Portico King size bedsheet', 
+    1999, 1, '3C', '1S'
+  );
+INSERT INTO product (
+  product_id, product, amount, quantity_rem, 
+  category_id, seller_id
+) 
+VALUES 
+  (
+    '9P', 'Book rack', 999, 7, '3C', '4S'
+  );
+INSERT INTO product (
+  product_id, product, amount, quantity_rem, 
+  category_id, seller_id
+) 
+VALUES 
+  (
+    '10P', 'Artificial Intelligence 3rd Edition', 
+    570, 9, '1C', '2S'
+  );
+INSERT INTO product (
+  product_id, product, amount, quantity_rem, 
+  category_id, seller_id
+) 
+VALUES 
+  (
+    '11P', 'Introduction to python', 
+    630, 10, '1C', '5S'
+  );
+
+
+CREATE TABLE customer (
+  customer_id VARCHAR(3) PRIMARY KEY, 
+  name VARCHAR(30) NOT NULL, 
+  password VARCHAR(20) NOT NULL
+);
+INSERT INTO customer 
+VALUES 
+  ('1B', 'Rohit', 'password');
+INSERT INTO customer 
+VALUES 
+  ('2B', 'John', 'password');
+INSERT INTO customer 
+VALUES 
+  ('3B', 'Mike', 'password');
+INSERT INTO customer 
+VALUES 
+  ('4B', 'Donald', 'password');
+INSERT INTO customer 
+VALUES 
+  ('5B', 'Simon', 'password');
+INSERT INTO customer 
+VALUES 
+  ('6B', 'Hari', 'password');
+INSERT INTO customer 
+VALUES 
+  ('7B', 'James', 'password');
+INSERT INTO customer 
+VALUES 
+  ('8B', 'Josh', 'password');
+INSERT INTO customer 
+VALUES 
+  ('9B', 'Ryan', 'password');
+INSERT INTO customer 
+VALUES 
+  ('10B', 'Meghan', 'password');
+
+
+CREATE TABLE orders (
+  order_id VARCHAR(3) PRIMARY KEY, 
+  customer_id VARCHAR(3), 
+  amount INTEGER, 
+  orderdate DATE, 
+  ordertime TIME, 
+  FOREIGN KEY (customer_id) REFERENCES customer(customer_id)
+);
+INSERT INTO orders 
+VALUES 
+  (
+    '1O', '1B', 350, '2021-03-12', '04:20:09'
+  );
+INSERT INTO orders 
+VALUES 
+  (
+    '2O', '1B', 350, '2021-02-13', '12:30:56'
+  );
+INSERT INTO orders 
+VALUES 
+  (
+    '3O', '2B', 800, '2020-11-10', '17:22:09'
+  );
+INSERT INTO orders 
+VALUES 
+  (
+    '4O', '2B', 400, '2020-10-26', '16:56:56'
+  );
+INSERT INTO orders 
+VALUES 
+  (
+    '5O', '3B', 400, '2020-03-03', '22:22:22'
+  );
+INSERT INTO orders 
+VALUES 
+  (
+    '6O', '3B', 400, '2021-03-03', '23:59:59'
+  );
+INSERT INTO orders 
+VALUES 
+  (
+    '7O', '5B', 1599, '2021-01-01', '08:41:02'
+  );
+INSERT INTO orders 
+VALUES 
+  (
+    '8O', '6B', 650, '2020-05-09', '01:12:12'
+  );
+INSERT INTO orders 
+VALUES 
+  (
+    '9O', '7B', 1999, '2020-08-09', '00:08:08'
+  );
+INSERT INTO orders 
+VALUES 
+  (
+    '10O', '8B', 999, '2020-01-01', '01:01:01'
+  );
+INSERT INTO orders 
+VALUES 
+  (
+    '11O', '9B', 999, '2021-01-30', '20:12:50'
+  );
+INSERT INTO orders 
+VALUES 
+  (
+    '12O', '10B', 630, '2021-02-23', '15:34:32'
+  );
+INSERT INTO orders 
+VALUES 
+  (
+    '13O', '4B', 630, '2021-02-23', '15:34:32'
+  );
+
+
+
+CREATE TABLE order_product (
+  order_id VARCHAR(3), 
+  product_id VARCHAR(3), 
+  quantity INTEGER, 
+  seller_id VARCHAR(3), 
+  original_amt INTEGER, 
+  discount INTEGER, 
+  prod_rating FLOAT(2, 1), 
+  FOREIGN KEY (order_id) REFERENCES orders(order_id), 
+  FOREIGN KEY (product_id) REFERENCES product(product_id), 
+  FOREIGN KEY (seller_id) REFERENCES seller(seller_id)
+);
+INSERT INTO order_product 
+VALUES 
+  ('1O', '1P', 1, '1S', 350, 0, 4);
+INSERT INTO order_product 
+VALUES 
+  ('2O', '1P', 1, '1S', 350, 0, 5);
+INSERT INTO order_product 
+VALUES 
+  ('3O', '3P', 1, '5S', 800, 0, 4);
+INSERT INTO order_product 
+VALUES 
+  ('4O', '4P', 1, '2S', 400, 0, 3);
+INSERT INTO order_product 
+VALUES 
+  ('5O', '4P', 1, '2S', 400, 0, 2);
+INSERT INTO order_product 
+VALUES 
+  ('6O', '4P', 1, '2S', 400, 0, 4);
+INSERT INTO order_product 
+VALUES 
+  ('7O', '6P', 1, '4S', 1599, 0, 1);
+INSERT INTO order_product 
+VALUES 
+  ('8O', '7P', 1, '5S', 650, 0, 3);
+INSERT INTO order_product 
+VALUES 
+  ('9O', '8P', 1, '1S', 1999, 0, 5);
+INSERT INTO order_product 
+VALUES 
+  ('10O', '9P', 1, '4S', 999, 0, 1);
+INSERT INTO order_product 
+VALUES 
+  ('11O', '9P', 1, '4S', 999, 0, 4);
+INSERT INTO order_product 
+VALUES 
+  ('12O', '11P', 1, '5S', 630, 0, 2);
+INSERT INTO order_product 
+VALUES 
+  ('13O', '11P', 1, '5S', 630, 0, 1);

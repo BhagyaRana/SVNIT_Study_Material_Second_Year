@@ -1,0 +1,21 @@
+// Iterative Approach [PSUEDO CODE]    
+
+// heights : Array of Heights of Buildings
+
+maxAreaIterative (heights)
+
+1.	maxArea = 0
+2.	minHeight = 0
+        
+3.	for i = 0 to height.length-1
+// Area of Height of Building * Width [1]
+4.		maxArea = max(heights[i], maxArea)
+// Assume Current Height as Min Height 
+5.		minHeight = heights[i]
+// Traverse on Left Side
+6. 		for j = i - 1 to 0
+7.			minHeight = min(heights[j], minHeight)
+8.			width = (i - j + 1)
+9.			maxArea = max(maxArea, (minHeight * width))    
+// Final Answer containing Maximum Area
+10.return maxArea 
